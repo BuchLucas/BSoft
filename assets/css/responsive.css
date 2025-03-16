@@ -39,8 +39,49 @@
 	.new-cars-txt {margin: 30px 0;}
 }/*max-width:991px*/
 
-@media screen and (max-width:768px){
-    
+@media screen and (max-width:680px){
+	.formMail textarea{
+		
+		width:95%;
+		margin: 10px;
+		
+		border-radius: 10px;
+		background-color: rgb(117, 110, 110);
+	}
+
+	.formMail input{
+		border: none;
+		width:95%;
+		height: 40px;
+		border-radius: 7px;
+		background-color: silver;
+		margin: 10px;
+		
+	}
+/*580px*/
+
+	@media screen and (max-width:580px){
+		.formMail textarea{
+			
+			width:97%;
+			margin: 10px;
+			
+			border-radius: 10px;
+			background-color: rgb(117, 110, 110);
+		}
+	
+		.formMail input{
+			border: none;
+			width:97%;
+			height: 40px;
+			border-radius: 7px;
+			background-color: silver;
+			margin: 10px;
+			
+		}
+		
+
+
 }/*max-width:768px*/
 
 @media screen and (max-width:767px){

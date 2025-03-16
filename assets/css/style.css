@@ -65,6 +65,28 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 500;
     text-transform: capitalize;
 }
+
+.btn_fp{
+    background: #4508c9;
+    height: 40px;
+    padding:7px 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.boxm h3{
+    color: white;
+}
+.boxm{
+    background: #f79328;
+}
+
+.boxm img{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
 p {
 	margin: 0;
 	color:#818998;
@@ -73,6 +95,125 @@ p {
     text-transform: initial;
 }
 
+
+.formMail{
+    width: 100%;
+    justify-content: center;
+    text-align: left;
+    position: relative;
+    align-items: center;
+
+    
+}
+.boxForm{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+}
+.formMail p{
+    color: orange;
+    font-size: 20px;
+}
+
+.formMail input{
+    border: none;
+    width:50%;
+    height: 40px;
+    border-radius: 3px;
+    background-color: silver;
+    margin: 10px;
+    
+}
+
+.formPedi input{
+    border: none;
+    width:100%;
+    height: 40px;
+    border-radius: 3px;
+    background-color: silver;
+    margin-bottom: 20px;
+    
+}
+
+
+.formMail textarea{
+    border: none;
+    width:50%;
+    height: 100px;
+    margin: 10px;
+    border-radius: 7px;
+    background-color: rgb(117, 110, 110);
+}
+
+
+.formPedi textarea{
+    border: none;
+    width:100%;
+    height: 100px;
+    border-radius: 7px;
+    background-color: silver;
+}
+
+
+
+
+.formMail button{
+    padding: 10px 50px;
+    background-color: #4e4ffa;
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.formPedi button{
+    padding: 10px 50px;
+    background-color: #4e4ffa;
+    color: white;
+    margin-top: 12px;
+    border-radius: 5px;
+}
+
+
+.formMail button:hover{
+    background-color: #4e4ffa55;
+    color: black;
+    border-bottom-color: yellow;
+}
+
+
+.formPedi button:hover{
+    background-color: #4e4ffa55;
+    color: black;
+    border-bottom-color: yellow;
+}
+
+
+.btnClose{
+    background-color: red;
+    padding: 20px 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#boxFP{
+    width: 100%;
+    
+    
+    
+    padding: 50px 20px;
+
+    background-color: black;
+    display: block;
+    
+}
+
+
+.dvc h2{
+    border: 2px #ff000077 solid;
+    border-radius: 5px;
+}
 #bs_logo{
     max-width: 40px;
 }
